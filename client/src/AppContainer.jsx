@@ -26,6 +26,8 @@ export default class AppContainer extends Component {
         console.log(json);
         this.setState({characterArray:json})
     }
+
+    //Onchange fucntion for when a value is typed in the input box
     handleChange = (event)=>{
         if (event.target.name ==="name"){
             this.setState({name:event.target.value})
@@ -37,7 +39,7 @@ export default class AppContainer extends Component {
             this.setState({age:event.target.value})
         }
     }
-
+    //When submit button is pressed it creates a new instance
     handleSubmission=async (event)=>{
         let response = await fetch('/api',{
             method:"POST",
