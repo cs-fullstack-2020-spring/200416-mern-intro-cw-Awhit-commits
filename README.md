@@ -1,5 +1,8 @@
 # 20-04-16 MERN Intro CW - Create and Read All
 
+### Looks good. No need to push the object from your form submission onto the array, just refresh the page to see updates in the browser. Interested to know where you came across that time stamp property.
+### Score : 5/5
+
 ### File Structure + Set Up
 - Create a directory called `server` - this is where our server will be 
 - Create a react app called `client` - this is where our react app will be
